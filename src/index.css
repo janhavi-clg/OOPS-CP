@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import './styles/theme.css';
+@import './styles/landing.css';
+@import './styles/login.css';
+@import './styles/layout.css';
+@import './styles/dashboard.css';
+@import './modules/module1/module1.css';
+@import './modules/module2/module2.css';
+@import './modules/module3/module3.css';
+@import './modules/module4/module4.css';
+@import './modules/module5/module5.css';
+@import './modules/module6/module6.css';
+@import './modules/module8/module8.css';
+
+/* ==========================================================================
+   GLOBAL RESET & MODERN FOUNDATION
+   ========================================================================== */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100%;
+  background-color: var(--cream-150);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font-family: inherit;
+  font-feature-settings: inherit;
+}
+
+input, select, textarea {
+  font-family: inherit;
+}
+
+/* Custom DevTrack Coffee Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--cream-200);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--coffee-300);
+  border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--coffee-500);
+}
+
+::selection {
+  background-color: var(--coffee-200);
+  color: var(--coffee-950);
+}

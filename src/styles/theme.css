@@ -1,0 +1,80 @@
+/* ==========================================================================
+   DEVTRACK DESIGN SYSTEM – COFFEE BROWN & WARM CREAM THEME
+   Premium, Warm, Elegant, Minimal, Modern, Professional
+   ========================================================================== */
+
+:root {
+  /* Coffee Brown Palette */
+  --coffee-950: #1a0f0a;        /* Deepest Espresso */
+  --coffee-900: #26160e;        /* Dark Espresso */
+  --coffee-850: #2f1b12;        /* Deep Coffee Brown (Primary brand) */
+  --coffee-800: #3a2217;        /* Roasted Coffee */
+  --coffee-700: #4a2d1f;        /* Medium Dark Roast */
+  --coffee-600: #5c3827;        /* Classic Mocha */
+  --coffee-500: #744833;        /* Warm Coffee */
+  --coffee-400: #936046;        /* Tan / Hazelnut Accent */
+  --coffee-300: #b58164;        /* Soft Caramel */
+  --coffee-200: #d4a98f;        /* Latte Foam Accent */
+  --coffee-100: #ebd3c2;        /* Pale Cream Coffee */
+  --coffee-50:  #f8eee6;        /* Lightest Coffee Tint */
+
+  /* Warm Cream & White Palette */
+  --cream-50:  #ffffff;         /* Pure crisp white for cards */
+  --cream-100: #fdfcf9;         /* Off-white canvas */
+  --cream-150: #faf7f2;         /* Soft Cream Background */
+  --cream-200: #f5efe6;         /* Warm Cream Surface */
+  --cream-300: #ede4d6;         /* Subtle Beige Border */
+  --cream-400: #e2d5c2;         /* Distinct Border / Line */
+  --cream-500: #d0c0a8;         /* Muted Cream Accent */
+
+  /* Semantic Variables */
+  --bg-primary: var(--cream-150);
+  --bg-secondary: var(--cream-200);
+  --bg-card: #ffffff;
+  --bg-card-hover: #fdfbf7;
+  --bg-sidebar: var(--coffee-900);
+  --bg-sidebar-hover: var(--coffee-800);
+  --bg-sidebar-active: var(--coffee-700);
+
+  /* Text & Foreground */
+  --text-primary: var(--coffee-950);
+  --text-secondary: var(--coffee-700);
+  --text-muted: var(--coffee-400);
+  --text-inverse: var(--cream-100);
+  --text-inverse-muted: var(--coffee-100);
+
+  /* Primary Accent & Interactive */
+  --primary: var(--coffee-850);
+  --primary-hover: var(--coffee-700);
+  --primary-active: var(--coffee-950);
+  --primary-light: var(--coffee-50);
+  --accent-caramel: #b87a4b;
+  --accent-gold: #c29548;
+
+  /* Borders & Dividers */
+  --border-light: var(--cream-300);
+  --border-medium: var(--cream-400);
+  --border-dark: var(--coffee-700);
+
+  /* Shadows - Warm Coffee Ambient Shadows */
+  --shadow-sm: 0 2px 6px rgba(38, 22, 14, 0.04), 0 1px 2px rgba(38, 22, 14, 0.02);
+  --shadow-md: 0 8px 24px rgba(38, 22, 14, 0.06), 0 2px 6px rgba(38, 22, 14, 0.04);
+  --shadow-lg: 0 16px 40px rgba(38, 22, 14, 0.08), 0 4px 12px rgba(38, 22, 14, 0.05);
+  --shadow-xl: 0 24px 60px rgba(38, 22, 14, 0.12), 0 8px 20px rgba(38, 22, 14, 0.06);
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', Menlo, Monaco, Consolas, monospace;
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 250ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 400ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Border Radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+}

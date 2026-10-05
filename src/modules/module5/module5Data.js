@@ -1,0 +1,215 @@
+/**
+ * Centralized Demo Data for Module 5: Achievements, Certificates & Accomplishments.
+ * Represents student Rahul Sharma (2nd Year CSE AI/ML).
+ * All achievements are clearly marked as student demo/prototype records.
+ */
+
+export const INITIAL_CATEGORIES = [
+  'Hackathon Achievement',
+  'Competition',
+  'Certification',
+  'Course Completion',
+  'Academic Achievement',
+  'Workshop',
+  'Internship',
+  'Leadership',
+  'Club/Organization',
+  'Publication',
+  'Open Source',
+  'Volunteering',
+  'Other'
+];
+
+export const INITIAL_CERTIFICATES = [
+  {
+    id: 'cert_1',
+    studentId: 'student_rahul_001',
+    certificateName: 'Python for Data Science & AI',
+    issuingOrganization: 'Coursera (IBM)',
+    issueDate: '2025-08-15',
+    expiryDate: '',
+    credentialId: 'IBM-PY-884920',
+    credentialUrl: 'https://coursera.org/verify/demo-ibm-py',
+    fileDataOrUrl: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&auto=format&fit=crop&q=80',
+    fileType: 'PDF',
+    relatedSkill: 'Python',
+    description: 'Comprehensive data manipulation, NumPy arrays, Pandas DataFrames, and REST API integrations.',
+    verified: true
+  },
+  {
+    id: 'cert_2',
+    studentId: 'student_rahul_001',
+    certificateName: 'Machine Learning Fundamentals',
+    issuingOrganization: 'Kaggle',
+    issueDate: '2025-10-10',
+    expiryDate: '',
+    credentialId: 'KAG-ML-449102',
+    credentialUrl: 'https://kaggle.com/learn/certification/rahul',
+    fileDataOrUrl: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&auto=format&fit=crop&q=80',
+    fileType: 'PNG',
+    relatedSkill: 'Machine Learning',
+    description: 'Underfitting and overfitting diagnostics, Random Forests, XGBoost, and model validation.',
+    verified: true
+  },
+  {
+    id: 'cert_3',
+    studentId: 'student_rahul_001',
+    certificateName: 'Java SE 17 Object-Oriented Foundations',
+    issuingOrganization: 'Oracle Academy',
+    issueDate: '2025-11-20',
+    expiryDate: '',
+    credentialId: 'ORA-J17-59281',
+    credentialUrl: 'https://catalog-education.oracle.com/ords/certview/sharebadge?id=demo-ora-j17',
+    fileDataOrUrl: 'https://images.unsplash.com/photo-1516116211227-bbc67375d8d0?w=800&auto=format&fit=crop&q=80',
+    fileType: 'PDF',
+    relatedSkill: 'Java',
+    description: 'Advanced OOP principles, Polymorphism, Abstract classes, Interface contracts, Generics, and Collections.',
+    verified: true
+  },
+  {
+    id: 'cert_4',
+    studentId: 'student_rahul_001',
+    certificateName: 'Git & GitHub Professional Associate',
+    issuingOrganization: 'GitHub Education',
+    issueDate: '2026-01-05',
+    expiryDate: '',
+    credentialId: 'GH-GIT-10294',
+    credentialUrl: 'https://education.github.com/verify/GH-GIT-10294',
+    fileDataOrUrl: 'https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800&auto=format&fit=crop&q=80',
+    fileType: 'PNG',
+    relatedSkill: 'Git & GitHub',
+    description: 'Branching strategies, Merge conflict resolution, Pull request review pipelines, and GitHub Actions CI.',
+    verified: true
+  },
+  {
+    id: 'cert_5',
+    studentId: 'student_rahul_001',
+    certificateName: 'Relational Database & SQL Specialist',
+    issuingOrganization: 'HackerRank',
+    issueDate: '2026-02-12',
+    expiryDate: '',
+    credentialId: 'HR-SQL-98124',
+    credentialUrl: 'https://hackerrank.com/certificates/demo-sql-98124',
+    fileDataOrUrl: 'https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=800&auto=format&fit=crop&q=80',
+    fileType: 'PDF',
+    relatedSkill: 'SQL',
+    description: 'Complex subqueries, window functions, indexing optimizations, and relational entity integrity.',
+    verified: true
+  }
+];
+
+export const INITIAL_ACHIEVEMENTS = [
+  {
+    id: 'ach_hack_1',
+    studentId: 'student_rahul_001',
+    title: 'Winner - Hack Celestial 3.0 (Best IoT Solution)',
+    achievementCategory: 'Hackathon Achievement',
+    organization: 'Devfolio / National Level',
+    achievementDate: '2025-11-16',
+    platform: 'Devfolio',
+    hackathonUrl: 'https://hackcelestial.devfolio.co',
+    startDate: '2025-11-14',
+    endDate: '2025-11-16',
+    participationStatus: 'Winner',
+    positionAward: '1st Place Winner & Best IoT Award',
+    teamName: 'Byte Busters',
+    teamMembers: 'Rahul Sharma (Lead), Amit Patil, Sneha Kulkarni',
+    role: 'Embedded C++ & Telemetry Lead',
+    description: 'Built autonomous greenhouse environmental monitor with MQTT telemetry. Won 1st place among 180+ teams.',
+    proofUrl: 'https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&auto=format&fit=crop&q=80',
+    hasProof: true,
+    relatedSkills: ['C++', 'ESP32', 'MQTT', 'IoT', 'Python']
+  },
+  {
+    id: 'ach_hack_2',
+    studentId: 'student_rahul_001',
+    title: 'Smart India Hackathon 2025 Internal Round Qualifier',
+    achievementCategory: 'Hackathon Achievement',
+    organization: 'Ministry of Education / College Level',
+    achievementDate: '2025-09-22',
+    platform: 'College Event',
+    hackathonUrl: 'https://sih.gov.in',
+    startDate: '2025-09-20',
+    endDate: '2025-09-22',
+    participationStatus: 'Finalist',
+    positionAward: 'Top 5 College Qualifier',
+    teamName: 'Apex Innovators',
+    teamMembers: 'Rahul Sharma, Rohan Deshmukh, Meera Joshi, Karan Verma',
+    role: 'Full Stack & Backend Architect',
+    description: 'Disaster management resource routing and crowd-sourced alert distribution system with realtime dispatch.',
+    proofUrl: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&auto=format&fit=crop&q=80',
+    hasProof: true,
+    relatedSkills: ['Java', 'Spring Boot', 'React', 'PostgreSQL']
+  },
+  {
+    id: 'ach_hack_3',
+    studentId: 'student_rahul_001',
+    title: 'TechSprint AI/ML Challenge – Special Mention',
+    achievementCategory: 'Competition',
+    organization: 'Unstop',
+    achievementDate: '2026-01-12',
+    platform: 'Unstop',
+    hackathonUrl: 'https://unstop.com',
+    startDate: '2026-01-10',
+    endDate: '2026-01-12',
+    participationStatus: 'Special Mention',
+    positionAward: 'Special Mention for UI/UX & Execution',
+    teamName: 'NeuralNodes',
+    teamMembers: 'Rahul Sharma, Divya Sen',
+    role: 'Frontend & ML Pipeline Engineer',
+    description: 'Personalized adaptive learning chatbot with quiz feedback generation using open-source LLMs.',
+    proofUrl: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&auto=format&fit=crop&q=80',
+    hasProof: true,
+    relatedSkills: ['Python', 'React', 'PyTorch', 'Tailwind CSS']
+  },
+  {
+    id: 'ach_ws_1',
+    studentId: 'student_rahul_001',
+    title: 'Google Cloud Vertex AI & Architecture Hands-on Workshop',
+    achievementCategory: 'Workshop',
+    organization: 'Google Developer Student Clubs (GDSC)',
+    achievementDate: '2025-12-05',
+    platform: 'College Event',
+    hackathonUrl: 'https://gdsc.community.dev',
+    startDate: '2025-12-05',
+    endDate: '2025-12-05',
+    participationStatus: 'Participated',
+    positionAward: 'Attendee & Certified Completion',
+    teamName: '',
+    teamMembers: '',
+    role: 'Attendee',
+    description: 'Intensive 8-hour hands-on lab on Vertex AI pipelines, custom model containerization, and endpoint deployment.',
+    proofUrl: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80',
+    hasProof: true,
+    relatedSkills: ['Cloud Computing', 'GCP', 'Kubernetes', 'Vertex AI']
+  },
+  {
+    id: 'ach_acad_1',
+    studentId: 'student_rahul_001',
+    title: 'Selected for National Technical Symposium Presentation',
+    achievementCategory: 'Academic Achievement',
+    organization: 'Apex Technical Society',
+    achievementDate: '2026-01-28',
+    platform: 'College Event',
+    hackathonUrl: 'https://apex.edu/symposium',
+    startDate: '2026-01-28',
+    endDate: '2026-01-28',
+    participationStatus: 'Finalist',
+    positionAward: 'First Author Paper Presentation',
+    teamName: 'Neural Research Group',
+    teamMembers: 'Rahul Sharma, Dr. S. Sharma',
+    role: 'Presenter & Lead Author',
+    description: 'Selected to present undergraduate research on computer vision heuristics for assistive athletic recovery.',
+    proofUrl: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&auto=format&fit=crop&q=80',
+    hasProof: true,
+    relatedSkills: ['Computer Vision', 'Python', 'MediaPipe', 'Research Writing']
+  }
+];
+
+// Active categories dynamically activated for Rahul
+export const INITIAL_ACTIVE_CATEGORIES = [
+  'Hackathon Achievement',
+  'Competition',
+  'Workshop',
+  'Academic Achievement'
+];
